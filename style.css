@@ -1,0 +1,68 @@
+body{
+    background-image:linear-gradient(rgba(0,0,255,0.5),rgba(150,100,50,0.5));
+}
+
+.saper {
+    width: 100vh;
+    height: 100vh;
+    margin-left:350px;
+    display: flex;
+    
+    
+}
+
+.saper > .kontener {
+    display: grid;
+    align-self:center;
+    width: 100%;
+    height: 100%;
+}
+
+.saper > .kontener > .poleminy {
+    border:1px solid black;
+    cursor: pointer;    
+    width: 100%;
+    text-align: center;
+    font-size: 150%;
+    color:white;
+    background-image:url('trawa2.png');
+}
+.saper > .kontener > .poleminy.flaga::before {
+ content: url('flaga.png');
+}
+
+.saper > .kontener > .poleminy.mina::before {
+    content: url('bomba.png');
+  
+   
+   }
+.saper > .kontener > .poleminy.mina1::before {
+    content: '1';
+   }
+   .saper > .kontener > .poleminy.mina2::before {
+    content: '2';
+   }
+   .saper > .kontener > .poleminy.mina3::before {
+    content: '3';
+   }
+   .saper > .kontener > .poleminy.mina4::before {
+    content: '4';
+   }
+   .saper > .kontener > .poleminy.mina5::before {
+    content: '5';
+   }
+   .saper > .kontener > .poleminy.mina6::before {
+    content: '6';
+   }
+   .saper > .kontener > .poleminy.mina7::before {
+    content: '7';
+   }
+   .saper > .kontener > .poleminy.mina8::before {
+    content: '8';
+   }
+   
+.saper > .kontener > .poleminy.hide {
+    font-size: 0;
+    background-color: gray;
+    background-image:url('trawa.jpg');
+}
